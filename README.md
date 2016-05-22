@@ -2,7 +2,7 @@
 
 Minimal VM for experimenting with Python3 and libclang bindings - this VM
 exists purely as a standard testbed for confirming that solutions to
-Stackoverflow questions.  
+Stackoverflow questions work.  
 
 
 [![License: CC BY 4.0](https://licensebuttons.net/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by/4.0/)

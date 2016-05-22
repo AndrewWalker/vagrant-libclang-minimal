@@ -4,13 +4,6 @@ set -e
 set -u
 set -f
 
-function forcelink
-{
-    SRC=$1
-    DST=$2
-    sudo ln -s -f $SRC $DST
-}
-
 wget -O - http://llvm.org/apt/llvm-snapshot.gpg.key | sudo apt-key add -
 
 sudo cp /vagrant/sources.list /etc/apt/sources.list
